@@ -1,0 +1,30 @@
+{
+  "intro": [
+    "I care about how we can use data, computation and curiosity to make drug discovery more directed and more generous.",
+    "This site is a living snapshot of what I am learning, building and thinking about."
+  ],
+  "background": [
+    "Use this space to describe your path so far: where you studied, what you worked on and the threads that tie it together.",
+    "You can talk about your work in AI for drug discovery, your interest in plants and biodiversity, or anything else that feels central."
+  ],
+  "sections": [
+    {
+      "title": "What I work on",
+      "body": "Describe the questions that keep you busy right now, the projects you are focusing on and the tools you reach for most often."
+    },
+    {
+      "title": "How I like to work",
+      "body": "Capture how you think about collaboration, learning and building things with other people."
+    }
+  ],
+  "timeline": [
+    {
+      "label": "Now",
+      "text": "Summarise what you are doing at the moment in one or two sentences."
+    },
+    {
+      "label": "Before",
+      "text": "A short note on what came before: previous degrees, roles or projects that matter to you."
+    }
+  ]
+}

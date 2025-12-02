@@ -1,0 +1,18 @@
+{
+  "blurb": "If any of this resonates or you want to compare notes, feel free to reach out.",
+  "email": "you@example.com",
+  "links": [
+    {
+      "label": "GitHub",
+      "value": "@your-handle"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "/in/your-link"
+    },
+    {
+      "label": "Twitter",
+      "value": "@your-handle"
+    }
+  ]
+}

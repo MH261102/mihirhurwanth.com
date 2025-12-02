@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Project title one",
+    "year": "2025",
+    "summary": "A short description of what you built and why it mattered.",
+    "stack": ["Keyword", "Another", "Tool"]
+  },
+  {
+    "title": "Project title two",
+    "year": "2024",
+    "summary": "Another project you want to highlight.",
+    "stack": ["Something", "Else"]
+  }
+]
