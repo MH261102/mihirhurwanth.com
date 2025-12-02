@@ -1,10 +1,39 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MotionSection from "../components/MotionSection.jsx";
 import about from "../content/about.json";
 
 export default function About() {
   return (
     <>
+      {/* 🔥 SEO for About Page */}
+      <Helmet>
+        <title>About | Mihir Hurwanth</title>
+        <meta
+          name="description"
+          content="Learn about Mihir Hurwanth — background in Biochemistry, AI for Drug Discovery, and PhD research in computational natural-product drug discovery."
+        />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="About | Mihir Hurwanth" />
+        <meta
+          property="og:description"
+          content="Biochemistry, AI, machine learning, and natural-product research — the story and background of Mihir Hurwanth."
+        />
+        <meta property="og:url" content="https://mihirhurwanth.com/about" />
+        <meta property="og:image" content="/og-image.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:title" content="About | Mihir Hurwanth" />
+        <meta
+          property="twitter:description"
+          content="Learn about Mihir Hurwanth’s academic background and research journey."
+        />
+        <meta property="twitter:image" content="/og-image.png" />
+      </Helmet>
+
+      {/* Your existing content */}
       <MotionSection>
         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-slate-50 mb-3">
           Story
